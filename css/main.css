@@ -250,7 +250,17 @@ div.products {
       font-weight: bold; }
 
 footer {
-  background: #ccc;
-  height: 500px; }
+  background: #fff;
+  height: 500px;
+  padding: 6% 4%; }
+  footer .links {
+    width: 50%; }
+    footer .links .col1,
+    footer .links .col2,
+    footer .links .col3 {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 300px;
+      padding: 0 5%; }
 
 /*# sourceMappingURL=main.css.map */
