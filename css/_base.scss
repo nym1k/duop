@@ -97,3 +97,35 @@ div.shop {
   align-items: center;
   height: 150px;
 }
+
+// Newsletter
+div.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12% 6%;
+  height: 225px;
+
+  h2 {
+    color: $text-darker;
+    font-weight: lighter;
+    font-size: 1.8rem;
+  }
+
+  p {
+    color: $text-dark;
+    font-size: 1.2rem;
+  }
+
+  input {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 3px;
+    padding: 2% 5%;
+    &::-webkit-input-placeholder {
+      color: lighten($text-dark, 30%);
+    }
+  }
+}

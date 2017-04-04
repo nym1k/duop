@@ -74,6 +74,29 @@ div.shop {
   align-items: center;
   height: 150px; }
 
+div.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 12% 6%;
+  height: 225px; }
+  div.newsletter h2 {
+    color: #3c3c3c;
+    font-weight: lighter;
+    font-size: 1.8rem; }
+  div.newsletter p {
+    color: #959595;
+    font-size: 1.2rem; }
+  div.newsletter input {
+    margin-top: 10px;
+    height: 40px;
+    width: 400px;
+    border-radius: 3px;
+    padding: 2% 5%; }
+    div.newsletter input::-webkit-input-placeholder {
+      color: #e2e2e2; }
+
 nav,
 ul.nav,
 ul.nav-right {
@@ -220,8 +243,8 @@ div.products {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 170px;
-    padding: 8% 4%;
+    height: 180px;
+    padding: 6% 4%;
     color: #959595; }
     div.products .product-info .product-title {
       font-weight: bold; }
