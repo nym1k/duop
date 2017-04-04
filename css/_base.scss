@@ -11,7 +11,6 @@
 h2 {
   color: $primary;
   font-size: 2.4rem;
-
   font-weight: bold;
 }
 
@@ -21,14 +20,25 @@ p.subheading {
 }
 // ------------ //
 
+// Flex
+.flex-grid {
+  display: flex;
+}
+
+.col-left {
+  width: 50%;
+  margin-right: 2%;
+}
+
+.col-right {
+  width: 50%;
+}
+// ------------ //
+
 body {
   background: $background;
   font-family: 'Nunito', sans-serif;
   overflow-x: hidden;
-}
-
-main {
-
 }
 
 section {
@@ -36,10 +46,6 @@ section {
   margin: 5% auto;
   background: $white;
   height: 100vh;
-}
-
-section:first-of-type {
-  margin-top: 0;
 }
 
 a {
@@ -63,18 +69,4 @@ button.btn {
   background: linear-gradient(to bottom, lighten($primary, 20%) 0%, $primary 100%);
   color: $white;
   border-radius: 3px;
-}
-
-// Flex
-.flex-grid {
-  display: flex;
-}
-
-.col-left {
-  width: 50%;
-  margin-right: 2%;
-}
-
-.col-right {
-  width: 50%;
 }
