@@ -15,7 +15,7 @@ h2 {
 }
 
 p.subheading {
-  color: $text-dark;
+  color: $text-light;
   font-size: 1.2rem;
 }
 // ------------ //
@@ -54,7 +54,7 @@ section {
 
 a {
   text-decoration: none;
-  color: $text-dark;
+  color: $text-light;
 }
 
 li {
@@ -108,13 +108,13 @@ div.newsletter {
   height: 225px;
 
   h2 {
-    color: $text-darker;
+    color: $text-dark;
     font-weight: lighter;
     font-size: 1.8rem;
   }
 
   p {
-    color: $text-dark;
+    color: $text-light;
     font-size: 1.2rem;
   }
 
@@ -125,7 +125,7 @@ div.newsletter {
     border-radius: 3px;
     padding: 2% 5%;
     &::-webkit-input-placeholder {
-      color: lighten($text-dark, 30%);
+      color: lighten($text-light, 30%);
     }
   }
 }
