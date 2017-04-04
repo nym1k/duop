@@ -1,0 +1,36 @@
+section.quickball {
+  position: relative;
+  padding: 5%;
+
+  .top {
+    width: 100%;
+
+    p {
+      color: $goldgrey;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: .8rem;
+    }
+
+    span.rule {
+      width: 250px;
+      height: 2px;
+      background: $goldgrey;
+    }
+  }
+
+  .col-left {
+    background: red;
+  }
+
+  .quickball-img {
+
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+  }
+
+}

@@ -1,0 +1,21 @@
+.home {
+  background: url('../img/duop_logo.png') no-repeat, $white;
+  background-size: contain;
+  background-position: center center;
+  padding: 10% 5%;
+
+  .col-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  div.mop-img {
+    width: 50%;
+    // height: 500px;
+
+    img {
+      margin-left: 150px;
+    }
+  }
+}

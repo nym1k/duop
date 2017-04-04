@@ -1,0 +1,56 @@
+nav,
+ul.nav,
+ul.nav-right {
+  display: flex;
+}
+
+nav {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  height: 65px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% .5%;
+  position: relative;
+
+  .nav-brand {
+    width: 125px;
+  }
+
+  img.brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 125px;
+    height: 125px;
+  }
+
+}
+
+ul.nav {
+  text-transform: uppercase;
+  width: 25%;
+  justify-content: space-between;
+
+  a {
+    font-weight: bold;
+    font-size: .8rem;
+
+    &:hover,
+    &:focus {
+      color: $primary;
+    }
+  }
+}
+
+ul.nav-right {
+  width: 7.5%;
+  justify-content: space-around;
+
+  .icon {
+    height: 25px;
+    width: 25px;
+    margin: 0 2%;
+  }
+}
