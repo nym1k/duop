@@ -251,16 +251,49 @@ div.products {
 
 footer {
   background: #fff;
-  height: 500px;
-  padding: 6% 4%; }
-  footer .links {
-    width: 50%; }
-    footer .links .col1,
-    footer .links .col2,
-    footer .links .col3 {
+  padding: 6% 4%;
+  color: #7e7e7e; }
+  footer .top {
+    padding: 0 4%;
+    margin-bottom: 50px; }
+    footer .top .links {
+      width: 75%; }
+      footer .top .links .col1,
+      footer .top .links .col2,
+      footer .top .links .col3 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+        padding-right: 5%;
+        font-size: 1.25em; }
+    footer .top .social {
+      height: 50px;
       display: flex;
-      flex-direction: column;
-      flex-basis: 300px;
-      padding: 0 5%; }
+      width: 50%;
+      justify-content: flex-end; }
+      footer .top .social a {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin: 1.25%; }
+      footer .top .social .fb {
+        background: url("../img/fb.svg") no-repeat center center; }
+      footer .top .social .insta {
+        background: url("../img/insta.svg") no-repeat center center; }
+      footer .top .social .pin {
+        background: url("../img/pin.svg") no-repeat center center; }
+      footer .top .social .twitter {
+        background: url("../img/twitter.svg") no-repeat center center; }
+  footer .bottom {
+    justify-content: space-between;
+    padding: 0 4%; }
+    footer .bottom .payment {
+      width: 50%;
+      height: 20px;
+      background: url("../img/cards.svg") no-repeat left center; }
+    footer .bottom .smallprint {
+      font-size: .8rem; }
+      footer .bottom .smallprint a {
+        font-weight: 900; }
 
 /*# sourceMappingURL=main.css.map */

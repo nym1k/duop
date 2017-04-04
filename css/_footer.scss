@@ -1,21 +1,68 @@
 footer {
   background: #fff;
-  height: 500px;
   padding: 6% 4%;
+  color: $text-darkish;
 
-  .links {
-    width: 50%;
+  .top {
+    padding: 0 4%;
+    margin-bottom: 50px;
 
-    .col1,
-    .col2,
-    .col3 {
+    .links {
+      width: 75%;
+
+      .col1,
+      .col2,
+      .col3 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+        padding-right: 5%;
+        font-size: 1.25em;
+      }
+    }
+    .social {
+      height: 50px;
       display: flex;
-      flex-direction: column;
-      flex-basis: 300px;
-      padding: 0 5%;
+      width: 50%;
+      justify-content: flex-end;
+      a {
+        display: block;
+        width: 18px;
+        height: 18px;
+        margin: 1.25%;
+      }
+      .fb {
+        background: url('../img/fb.svg') no-repeat center center;
+      }
+      .insta {
+        background: url('../img/insta.svg') no-repeat center center;
+      }
+      .pin {
+        background: url('../img/pin.svg') no-repeat center center;
+      }
+      .twitter {
+        background: url('../img/twitter.svg') no-repeat center center;
+      }
     }
   }
-  .social {
-    
+
+  .bottom {
+    justify-content: space-between;
+    padding: 0 4%;
+
+    .payment {
+      width: 50%;
+      height: 20px;
+      background: url('../img/cards.svg') no-repeat left center;
+    }
+
+    .smallprint {
+      font-size: .8rem;
+      a {
+        font-weight: 900;
+      }
+    }
   }
+
+
 }
